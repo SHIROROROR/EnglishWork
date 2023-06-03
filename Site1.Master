@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EnglishWork.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+
+    <form id="form1" runat="server">
+        <div>
+            <center>
+           
+            <table width="25%">
+                <tr>
+                    <td>
+                       <asp:ImageButton ImageUrl="Buttons/download.png" PostBackUrl="~/Application.aspx" runat="server" />
+                    </td>
+                    <td>
+                         <asp:ImageButton ImageUrl="Buttons/about.png" PostBackUrl="~/Default.aspx" runat="server" />
+                    </td>
+                    <td>
+                         <asp:ImageButton ImageUrl="Buttons/abit.png" PostBackUrl="~/phoneimg.aspx" runat="server" />
+                    </td>
+                </tr>
+            </table>
+             </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
